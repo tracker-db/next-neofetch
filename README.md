@@ -6,7 +6,7 @@ Installs neofetch and the NeXT Research login banner on an Ubuntu 22.04 x86_64 s
 
 ## Use
 
-1. Log in to the target server (from your Mac, with your own SSH command or alias).
+1. Log in to the target server (from your Workstation via SSH or otherwise).
 2. On the target, run **one** of these. Both clone the repo, run the script, then delete the clone.
 
 Install:
