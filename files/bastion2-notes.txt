@@ -1,0 +1,27 @@
+## /etc/profile (lines 20-32)
+if [ -d /etc/profile.d ]; then
+  for i in /etc/profile.d/*.sh; do
+    if [ -r $i ]; then
+      . $i
+    fi
+  done
+  unset i
+fi
+/opt/next-banner/next-banner
+# neofetch --config none
+
+## neofetch
+Neofetch 7.1.0
+
+## os
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+
+## arch
+x86_64
+
+## packages
+un  figlet         <none>       <none>       (no description available)
+ii  neofetch       7.1.0-3      all          Shows Linux System Information with Distribution Logo
+ii  toilet         0.3-1.4      amd64        display large colourful characters in text mode
